@@ -1,0 +1,16 @@
+/* fontes usada no projecto da tarefa */
+
+@font-face {
+     font-family: ibmBold;
+     src: url(../components/Fonts/IBMPlexSans-Bold.ttf);
+   }
+ 
+ @font-face {
+ font-family: ibmMedium;
+ src: url(../components/Fonts//IBMPlexSans-Medium.ttf);
+ }
+ 
+ @font-face {
+ font-family: ibmRegular;
+ src: url(../components/Fonts/IBMPlexSans-Regular.ttf);
+ }

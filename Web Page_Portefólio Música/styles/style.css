@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EEEEEE;
+    font-family: Arial, sans-serif;
+}
+
+.cabecalho-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    height: 70px;
+    padding: 0px 55px 0px 55px;
+}
+
+.subcabecalho-1-2 ul li a{
+    padding-left: 20px;   
+}
+
+li{
+    display: inline-block;
+}
+
+a{  
+    font-family: ibmMedium;
+    text-decoration: none;
+    color: #000000;
+}
+
+.cabecalho-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 56px 55px 0px 55px ;
+}
+
+.subcabecalho-2-1 h1{
+    font-family: ibmMedium;
+    color: #2A94F4;
+    font-size: 42px;
+    width: 500px;
+    height: 101px;
+    margin: 0px 0px 26px 100px;
+}
+.subcabecalho-2-1 .subp p{
+    font-family: ibmRegular;
+    color: #7B7979;
+    line-height: 0.6cm;
+}
+
+.subcabecalho-1-2 .bt-contacte{
+    background-color: #FFBE55;  
+    padding: 9px 15px 9px 15px ;
+    border-radius: 4px;
+    color: white;
+    margin-left: 20px;
+}
+
+.subcabecalho-2-1 .bt-quero-gravar{
+    font-size: 16px;
+    background-color: #FFBE55; 
+    width: 230px;
+    height: 32px;
+    padding: 9px 13px 9px 13px;
+    height: 36px;
+    border-radius: 4px;
+    margin: 47px 0px 0px 100px;  
+}
+.subcabecalho-2-1 .bt-quero-gravar a{
+    color: white;  
+}
+.subcabecalho-2-2{
+    margin-right: 103px;
+}
+
+.txt-online{
+    color: #FFBE55;
+}
+
+.subp{
+    width: 522px;
+}
+.seccao-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 435px;
+    background-color: #E8E8E8;
+}
+.carde{
+    background-color: #EEEEEE;
+    width: 370px;
+    height: 384px;
+    border-radius: 4px;
+    box-shadow: 12px 12px 20px #3b3b3b36;  
+}
+
+.titulo-carde {
+    color: #7B7979;
+    font-family: ibmBold;
+    text-align: center;
+}
+
+.paragrafo-carde{
+    color: #7B7979;
+    font-family: ibmRegular;
+    text-align: center;
+    line-height: 0.6cm;
+    margin: 28px 15px 0px 15px;
+}
+
+.img-circular-carde img{
+    margin: 14px 107px 20px 105px;
+}
+
+.seccao-2{
+    margin-top: 30px;
+    height: 570px;
+    background-color: #E8E8E8;
+}
+.titulo-alguns-exempos h1{
+    font-family: ibmBold;
+    text-align: center;
+    font-size: 42px;
+    color: #7B7979;
+    margin-bottom: 63px;
+}   
+.leitor-sound-1{
+    box-shadow: 12px 12px 20px #3b3b3b36; 
+    margin-left: 55px; 
+
+}
+.leitor-sound-2{
+    box-shadow: 12px 12px 20px #3b3b3b36; 
+    margin-left: 458px;
+    margin-top: -10px;
+}
+
+.seccao-3{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E8E8E8;
+    margin: 30px 55px 59px 55px;
+    padding-left: 25px;
+    border-left: 17px solid #2A94F4;
+    
+}
+.conteudo-seccao-3{
+    width: 50%;
+}
+.conteudo-seccao-3 h1{
+    font-family: ibmBold;
+    color: #7B7979;
+    margin: 10px 0px 48px 0px;
+}
+.conteudo-seccao-3 p{
+    font-family: ibmRegular;
+    color: #7B7979;
+    line-height: 0.6cm;
+}
+.img-seccao-3{
+    margin-right: 104.6px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 101px;
+    background-color: #2A94F4;
+}
+footer p{
+    font-family: ibmBold;
+    line-height: 0.6cm;
+    color: white;
+}
+footer .txt-termo{
+    font-family: ibmRegular;
+}
+.txt-rodape{
+    margin-left: 55px;
+}
+.rede-sociais{
+    display: flex;
+    margin-right: 55px;
+}
+.rede-sociais img{
+    padding-right: 20px;
+}
